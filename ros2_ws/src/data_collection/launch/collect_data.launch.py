@@ -7,6 +7,9 @@ from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
+    # Force Qt to use offscreen platform to prevent Gazebo GUI crash over SSH
+    os.environ["QT_QPA_PLATFORM"] = "offscreen"
+
     # Declare launch argument
     save_dir_arg = DeclareLaunchArgument(
         'save_dir',
