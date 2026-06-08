@@ -1,0 +1,41 @@
+class_names:
+  0: box
+  1: cylinder
+  2: sphere
+
+objects:
+  - name: box_1
+    class_id: 0
+    class_name: box
+    position: [1.5, 1.5, 0.15]
+    size: [0.3, 0.3, 0.3]
+    
+  - name: box_2
+    class_id: 0
+    class_name: box
+    position: [-1.5, -1.5, 0.15]
+    size: [0.3, 0.3, 0.3]
+    
+  - name: cylinder_1
+    class_id: 1
+    class_name: cylinder
+    position: [2.0, -1.0, 0.2]
+    size: [0.2, 0.2, 0.4]
+    
+  - name: cylinder_2
+    class_id: 1
+    class_name: cylinder
+    position: [-2.0, 1.0, 0.2]
+    size: [0.2, 0.2, 0.4]
+    
+  - name: sphere_1
+    class_id: 2
+    class_name: sphere
+    position: [0.0, 2.0, 0.125]
+    size: [0.25, 0.25, 0.25]
+    
+  - name: sphere_2
+    class_id: 2
+    class_name: sphere
+    position: [0.0, -2.0, 0.125]
+    size: [0.25, 0.25, 0.25]
