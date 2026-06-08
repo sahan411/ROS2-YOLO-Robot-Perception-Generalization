@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'robot_driver = data_collection.robot_drive_node:main',
             'image_capture = data_collection.image_capture_node:main',
+            'auto_labeler = data_collection.auto_label_node:main',
         ],
     },
 )
