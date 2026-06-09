@@ -1,0 +1,11 @@
+path: /home/sdvn_hinder_metric/Sahan/ROS2-YOLO-Robot-Perception-Generalization/datasets
+train:
+  - env_a/images/train
+  - env_b/images/train
+  - env_c/images/train
+val:
+  - env_a/images/val
+  - env_b/images/val
+  - env_c/images/val
+nc: 3
+names: ['box', 'cylinder', 'sphere']
